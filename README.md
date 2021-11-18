@@ -1,11 +1,11 @@
 # Informe Tarea2
 1. OBJETIVOS 
 
-Objetivo general
+   Objetivo general
 
 
 
-Objetivos específicos
+   Objetivos específicos
  
 
 
@@ -173,7 +173,7 @@ Objetivos específicos
          I=V/R
          I=50V/100Ω
          I=5V/10Ω
-         I= 0.5[A]
+         I= 500[mA]
          d) V=30V, R=15kΩ
          I=V/R
          I=30V/1500Ω
@@ -185,7 +185,7 @@ Objetivos específicos
          I=250V/560000Ω
          I=25V/56000Ω
          I= 44,64x10^-6
-         I= 44,64 μA
+         I= 44,6 μA
 
          17. Se conecta un resistor de 10 Ω  a través de una batería de 12 V. ¿Cuál es la corriente a través del resistor?
 
@@ -379,6 +379,6 @@ Objetivos específicos
 
 6. BIBLIOGRAFÍA 
  
- Floyd,T. L. (2007). Principios de circuitos electricos. Mexico: Octava Edicion.
+  Floyd,T. L. (2007). Principios de circuitos electricos. Mexico: Octava Edicion.
  
- Charles K & Sadiku M. (2006).Fundamentos de Circuitos eléctricos: Tercera Edición.
+  Charles K & Sadiku M. (2006).Fundamentos de Circuitos eléctricos: Tercera Edición.
