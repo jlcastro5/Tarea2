@@ -2,10 +2,16 @@
 1. OBJETIVOS 
 
    Objetivo general
-
+    
+    * Comprender y analizar conceptos fundamentales como la ley de Ohm, energía y potencia en circuitos eléctricos, mediante la elaboración de las actividades y problemas planteados en los capítulos tres y cuatro del libro “Principios De Circuitos Eléctricos” de Thomas L. Floyd, para de esta manera, tener buenas bases teóricas y no presentan inconvenientes en la resolución de circuitos eléctricos y la determinación de valores como voltaje, amperaje, resistencia, energía y la potencia.
 
 
    Objetivos específicos
+   
+    * Comprender el uso de la ley de ohm y como aplicarlo dentro de un circuito serie, paralelo o mixto utilizando simuladores virtuales que permitan su corroboración o en su defecto permita la localización de fallas.
+    * Reconocer la diferencia entre energía y potencia dentro de un circuito eléctrico, conocer sus unidades básicas y como estas están relacionadas dentro de los componentes de un circuito electrónico.
+    * Identificar los resistores eléctricos no solo por el valor en Ohm sino también por su potencia nominal, lo cual permitirá establecer las diferentes aplicaciones y usos de los mismo.
+
  
 
 
@@ -251,22 +257,45 @@
          18 de 12 pies de largo. La resistencia total es la resistencia de los dos alambres sumada al resistor de
          100 Ω. Determine lo siguiente:
         
-         (a) Corriente
-         I=V/R
-         (b) Caída de voltaje en el resistor
-         V=I(R)
-         (c) Caída de voltaje a través de cada tramo de alambre
-         
+          a) Corriente
+           I=V/R
+	   I= 59.9 mA
+	  
+          b) Caída de voltaje en el resistor
+            V=I(R)
+	    V= 5.99V
+          C) Caída de voltaje a través de cada tramo de alambre
+	    V=I(R)
+	    V= 4.61mV
       
     SECCIÓN 3–4 Cálculo de la resistencia
     
          29. Calcule la resistencia de un reóstato para cada juego de valores de V e I:
+
+	   a) V=10kV, I=5A
+	   R=V/I
+	   R= 2kΩ
+	   b) V=7V, I=2mA
+	   R=V/I
+	   R= 3.5kΩ
+	   c) V=500V, I=250mA
+	   R=V/I
+	   R= 2kΩ
+	   d) V=50V, I=500µA
+	   R=V/I
+	   R= 100kΩ
+	   e) V=1kV, I=1mA
+	   R=V/I
+	   R= 1MΩ
          
          31. En el circuito de la figura 3-23(a), el filamento de una lámpara tiene cierta cantidad de resistencia, la
          cual está representada por una resistencia equivalente en la figura 3-23(b). Si la lámpara opera con
          120 V y 0.8 A de corriente, ¿cuál es la resistencia de su filamento cuando está encendida
          
-         150 Ω
+         Aplicamos la ley de Ohm
+	   R=V/I
+	   R=120V/0.8A 
+	   R=150 Ω
          
       ![](https://github.com/jlcastro5/Tarea2/blob/15495bfec3293434eba98509781aa72322ede6b3/3-23.PNG)
      
@@ -370,6 +399,8 @@
          R= V/I	
          R=(75 V)/(2 A) 
          R=37.5 Ω
+	 
+      ![](https://github.com/jlcastro5/Tarea2/blob/3e5d3926a4e1cb6034cc24d3955cf4dd6f2842b4/17.PNG)
          
          19. Un calentador eléctrico funciona con 120 V y absorbe 3 A de corriente. ¿Cuánta potencia utiliza?
 
@@ -418,26 +449,27 @@
          Una aplicación en particular requiere de un resistor que pueda manejar aproximadamente 8 W. ¿Qué clasificación
          utilizaría usted para tener un margen de seguridad mínimo del 20% sobre el valor nominal? ¿Por qué?
          
-         	En primer lugar, se elabora una recta numérica con los valores de las potencias de los resistores.
-            W					   W
-	            3	5	8	12	20
+           En primer lugar, se elabora una recta numérica con los valores de las potencias de los resistores.
+            W				    W
+	     |  3 |  5	| 8  |	12  |  20  |
 
-	         Nos centramos en 8w y sus valores aledaños (5w y 12w).
-            W			     W
-	            5	8	12
+	   Nos centramos en 8w y sus valores aledaños (5w y 12w).
+            W			         W
+	        |   5	|   8	|  12   |
 
             Si calculamos que 8w es el valor de la potencia de la resistencia, elegir una con esta capacidad nos dará 
             un 100% de seguridad. Cualquier valor que se aleje de 8w provocara que esta sea menos segura.
 
 	         Colocamos puntos medios entre estos valores.
-            W				      	W
-	            5	6.5	8	10	12
+            W				         	W
+	       | 5   |	6.5   |   8   |10   |   12   |
 
             De esta grafica podemos seccionar el rango en el que se debería escoger la resistencia de 8W, si llegamos
             a tener valores mayores a 6.5 W y menores a 10W
 
                                                       6.5W < 8W < 10W
-	         A partir de este punto analizamos lo siguiente:
+	   
+	   A partir de este punto analizamos lo siguiente:
             Si requerimos una resistencia con alta potencia y empleamos una de baja es muy posible que la resistencia se dañe. 
             Por el contrario, si utilizamos una resistencia con mayor potencia de la que necesitamos, será un gasto innecesario 
             ya que cumplirá su misma función.
@@ -445,7 +477,7 @@
             Establecido esto para calcular el margen de seguridad mínimo del 20% establecemos los siguientes cálculos
 
             D=10W-8W 
-            D=2W 	 Si la potencia que debe soportar la resistencia pasa en 2W esta es 100% insegura.
+            D=2W 	=>  Si la potencia que debe soportar la resistencia pasa en 2W esta es 100% insegura.
 
             Potencia de la resistencia= 8W+((20%)(2W))/((100%)) 
 
@@ -512,6 +544,10 @@
 
 
 5. CONCLUSIONES
+
+ * La ley de ohm ha permitido obtener resultados exactos los cuales fueron concretados en tinkercad, nos ha permitido identificar los valores de las resistencias, el voltaje de la fuente y los valores de la corriente en los circuitos eléctricos.
+ * Identificando los elementos que deben estar en un circuito eléctrico, la aplicación de la ley de ohm ha permitido identificar errores y fallas dentro del mismo.
+ * Mediante varios ejercicios se ha podido establecer la diferencia entre resistencias que tienen una misma valencia en ohms, pero están diseñados para disipar mas el calor. Conociendo esto podemos evitar errores al momento de implementar los conocimientos teóricos adquiridos en el laboratorio físico sin el riesgo de cometer errores y daños en nuestros componentes.
 
 
 
