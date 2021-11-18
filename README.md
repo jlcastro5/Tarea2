@@ -217,16 +217,46 @@
          
          23. Calcule el voltaje para cada valor de I y R:
 
+         a) I=2A , R=18Ω
+         V=I(R)
+         V=2A(18Ω)
+         V= 36V
+         
+         b) I=5A, R=56Ω
+         V=I(R)
+         V=5A(56Ω)
+         V= 280V
+         
+         c) I=2.5A, R=680Ω
+         V=I(R)
+         V=2.5A(680Ω)
+         V= 1700V
+         
+         d) I=0.6A, R=47Ω
+         V=I(R)
+         V=0.6A(47Ω)
+         V= 28.2V
+         
+         e) I=0.1A, R=560Ω
+         V=I(R)
+         V=0.1A(560Ω)
+         V= 56V
+         
          25. Se leen tres amperes de corriente a través de un resistor de 27 Ω conectado a una fuente de voltaje.
          ¿Cuánto voltaje produce la fuente?
+         
+         81 V
          
          27. Se conecta una fuente de 6 V a un resistor de 100 Ω mediante dos tramos de alambre de cobre calibre
          18 de 12 pies de largo. La resistencia total es la resistencia de los dos alambres sumada al resistor de
          100 Ω. Determine lo siguiente:
         
          (a) Corriente
+         I=V/R
          (b) Caída de voltaje en el resistor
+         V=I(R)
          (c) Caída de voltaje a través de cada tramo de alambre
+         
       
     SECCIÓN 3–4 Cálculo de la resistencia
     
@@ -235,6 +265,8 @@
          31. En el circuito de la figura 3-23(a), el filamento de una lámpara tiene cierta cantidad de resistencia, la
          cual está representada por una resistencia equivalente en la figura 3-23(b). Si la lámpara opera con
          120 V y 0.8 A de corriente, ¿cuál es la resistencia de su filamento cuando está encendida
+         
+         150 Ω
          
       ![](https://github.com/jlcastro5/Tarea2/blob/15495bfec3293434eba98509781aa72322ede6b3/3-23.PNG)
      
@@ -245,7 +277,12 @@
          este ajuste? Para ajustar la corriente a 1 A, ¿a qué valor de resistencia debe ajustar el reóstato? ¿Cuál
          es el problema con el circuito?
          
+         133 Ω; 100 Ω; la fuente puede ponerse en cortocircuito si el
+         reóstato se ajusta a 0 Ω
+         
          35. Repita el problema 34 con un circuito de 110 V y un fusible de 1 A.
+
+         95 Ω
          
     
     SECCIÓN 3–5 Introducción a la localización de fallas
@@ -253,6 +290,8 @@
          37. Suponga que tiene una serie de 32 luces y uno de los focos se fundió. Con el método de división a la
          mitad, y comenzando por la mitad izquierda del circuito, ¿cuántas lecturas de resistencia tomará localizar el
          foco fundido si es el décimo séptimo de izquierda a derecha
+         
+         Cinco
     
     SECCIÓN 4–1 Energía y potencia
     
@@ -327,20 +366,49 @@
     
          17. Si una fuente de 75 V está suministrando 2 A a una carga, ¿cuál es el valor de resistencia 
          de la carga?
+        
+         R= V/I	
+         R=(75 V)/(2 A) 
+         R=37.5 Ω
          
          19. Un calentador eléctrico funciona con 120 V y absorbe 3 A de corriente. ¿Cuánta potencia utiliza?
 
+         P=  V^2/R   	
+         P= I^2*R	
+         P =V*I
+         P =(120V)*(3A) 
+         P =360 w 
+
          21. Calcule la potencia disipada por un resistor de 10 kΩ que transporta 100 μA
+
+         P= I^2*R 
+         P=(0.1A)^2* (10000Ω) 
+         P=100 w
 
          23. Se conecta un resistor de 56 Ω entre las terminales de una batería de 1.5 V. ¿Cuál es la disipación de
          potencia en el resistor?
          
+         P= V^2/R   
+         P= (1.5v)^2/56Ω   
+         P= 0.04017 w o  4.017x10^(-5) kw
+
          25. Una fuente de 12 V se conecta entre los extremos de un resistor de 10 Ω.
-        
+
+         P= V^2/R  		
+         P= (12 V)^2/(10 Ω)  
+         P= 14.4 w o 1.44 x10^(-2)  kw
+
          (a) ¿Cuánta energía se utiliza en dos minutos?
          
+         E=P*t 
+         E= 1.44 x10^(-2)  kw*(1/30)h 
+         E= 4.8 x10^(-4)  kwh 
+
          (b) Si después de un minuto se desconecta el resistor, ¿es la potencia durante este primer minuto mayor, 
          menor o igual a la potencia que hay durante un intervalo de dos minutos?
+         
+         La disipación de potencia no varia durante el tiempo, por lo que el en el primer minuto y durante
+         dos minutos se disipa la misma potencia.
          
          
     
@@ -349,6 +417,40 @@
          27. Cierto tipo de resistor viene en las siguientes clasificaciones: 3 W, 5 W, 8 W, 12 W, 20 W. 
          Una aplicación en particular requiere de un resistor que pueda manejar aproximadamente 8 W. ¿Qué clasificación
          utilizaría usted para tener un margen de seguridad mínimo del 20% sobre el valor nominal? ¿Por qué?
+         
+         	En primer lugar, se elabora una recta numérica con los valores de las potencias de los resistores.
+            W					   W
+	            3	5	8	12	20
+
+	         Nos centramos en 8w y sus valores aledaños (5w y 12w).
+            W			     W
+	            5	8	12
+
+            Si calculamos que 8w es el valor de la potencia de la resistencia, elegir una con esta capacidad nos dará 
+            un 100% de seguridad. Cualquier valor que se aleje de 8w provocara que esta sea menos segura.
+
+	         Colocamos puntos medios entre estos valores.
+            W				      	W
+	            5	6.5	8	10	12
+
+            De esta grafica podemos seccionar el rango en el que se debería escoger la resistencia de 8W, si llegamos
+            a tener valores mayores a 6.5 W y menores a 10W
+
+                                                      6.5W < 8W < 10W
+	         A partir de este punto analizamos lo siguiente:
+            Si requerimos una resistencia con alta potencia y empleamos una de baja es muy posible que la resistencia se dañe. 
+            Por el contrario, si utilizamos una resistencia con mayor potencia de la que necesitamos, será un gasto innecesario 
+            ya que cumplirá su misma función.
+
+            Establecido esto para calcular el margen de seguridad mínimo del 20% establecemos los siguientes cálculos
+
+            D=10W-8W 
+            D=2W 	 Si la potencia que debe soportar la resistencia pasa en 2W esta es 100% insegura.
+
+            Potencia de la resistencia= 8W+((20%)(2W))/((100%)) 
+
+            Potencia de la resistencia= 8.4W 
+
     
     SECCIÓN 4–4 Conversión de energía y caída de voltaje en una resistencia
     
@@ -358,15 +460,52 @@
     
          29. Una carga de 50 Ω utiliza 1 W de potencia. ¿Cuál es el voltaje de salida de la fuente de potencia?
 
+         P=IV 
+         P=V^2/R
+         P=I^2 R
+         V=  √RP 
+         V=  √((50 Ω)(1W)) 
+         V=7.071v
+
          31. ¿Cuál es la energía total en joules que suministra la batería del problema 30 durante 90 horas?
 
+         P=  V^2/R   
+         P=(1.25v)^2/(10 Ω)  
+         P=0.15625 W o 1.5625 x10^(-4)  kW 
+
+         E=P*t 
+         E=1.5625x10^(-4)  kW*90h 
+         E=1.40625x10^(-2)  kWh 
+
+         Joule=(1.04625x10^(-2)  kWh)(3600s/1h)(1000W/(1 kW)) 
+         Joule=50625 J  
+
          33. ¿Cuánta corriente promedio puede ser absorbida de una batería de 80 Ah durante 10 h?
+
+         80 Ah=(Número A)(10h) 
+         Número A=80Ah/10h 
+         Numero A=8 A 
 
          35. Si la potencia de entrada es de 500 mW y la de salida de 400 mW, ¿cuánta potencia se pierde? ¿Cuál
          es la eficiencia de esta fuente de potencia?
          
+         P_salida=P_entrada-P_perdida 
+         P_perdida=P_entrada-P_salida   
+         P_perdida=500mW-400mW 
+         P_perdida=100mW 
+
+         Eficiencia=  P_salida/P_entrada  x100% 
+         Eficiencia=  400mW/500mW x100% 
+         Eficiencia=80% 
+
          37. Cierta fuente de potencia suministra 2 W de forma continua a una carga. Está operando al 60% de eficiencia. 
          En un periodo de 24 h, ¿cuántos kilowatts-hora utiliza la fuente de potencia?
+         
+         Eficiencia=  P_salida/P_entrada  x100% 
+         60%=  (4.8 x10^(-2) kWh)/P_entrada  x100% 
+         P_entrada=  (4.8 x10^(-2) kWh)/(60%) x100% 
+         P_entrada= 8 x10^(-2) kWh 
+
          
 4. VIDEO
 
