@@ -162,8 +162,6 @@
       
       Figura d. Grafica corriente y voltaje
       
-        
-       
     SECCIÓN 3–2 Cálculo de la corriente
          
          15. Determine la corriente en cada caso:
@@ -541,7 +539,7 @@
          
 4. VIDEO
 
-
+https://www.youtube.com/watch?v=CW7fgWOWFGs
 
 5. CONCLUSIONES
 
